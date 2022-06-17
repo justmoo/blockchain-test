@@ -1,6 +1,6 @@
 import sha256 from "crypto-js/sha256";
 class Block {
-  public hash;
+  public hash: string;
   public nonce: number;
   constructor(
     public height: number,
